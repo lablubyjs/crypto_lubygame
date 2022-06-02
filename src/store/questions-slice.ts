@@ -1,6 +1,6 @@
 import {createAsyncThunk, createSlice, PayloadAction} from '@reduxjs/toolkit';
 
-import {ICategorie, ICategories, IQuestionsResponse} from '@shared/interfaces';
+import {IQuestionsResponse} from '@shared/interfaces';
 
 import {questionsServices} from '@shared/services';
 

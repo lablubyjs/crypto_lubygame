@@ -1,10 +1,12 @@
 import {configureStore, ThunkAction, Action} from '@reduxjs/toolkit';
 
+import connectionSlice from './connection-slice';
 import questionsSlice from './questions-slice';
 
 const store = configureStore({
     reducer: {
         questions: questionsSlice,
+        connection: connectionSlice
     },
 });
 
