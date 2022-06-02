@@ -9,6 +9,7 @@ module.exports = {
             '@routes': path.resolve(__dirname, './src/routes'),
             '@shared': path.resolve(__dirname, './src/shared'),
             '@store': path.resolve(__dirname, './src/store'),
+            '@contracts': path.resolve(__dirname, './src/contracts'),
         },
     },
 };

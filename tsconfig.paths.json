@@ -8,7 +8,9 @@
             "@pages": ["./src/pages"],
             "@routes": ["./src/routes"],
             "@shared/*": ["./src/shared/*"],
-            "@store/*": ["./src/store/*"]
+            "@store/*": ["./src/store/*"],
+            "@contracts/*": ["./src/contracts/*"],
+            "crypto": ["node_modules/crypto-js"]
         }
     }
 }
