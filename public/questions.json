@@ -1,0 +1,224 @@
+{
+  "categories": {
+    "animals": {
+      "id": 1,
+      "name": "Animais",
+      "color": "#B20600",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Qual é o maior animal terrestre?",
+          "answers": [
+            "Elefante africano",
+            "Rinoceronte branco",
+            "Leão africano",
+            "Baleia azul"
+          ],
+          "correctAnswer": 0,
+          "feedback": "O elefante-africano-da-savana (Loxodonta africana) é o gigante da terra. O maior indivíduo já catalogado pesava 11 toneladas e tinha quase 4 metros de altura."
+        },
+        {
+          "id": 2,
+          "question": "Qual o animal terrestre mais rápido do mundo?",
+          "answers": [
+            "Cão selvagem",
+            "Guepardo",
+            "Gato da pérsia",
+            "Tigre"
+          ],
+          "correctAnswer": 1,
+          "feedback": "O guepardo é um animal rápido, conseguindo alcançar a velocidade máxima de 120 km/h."
+        },
+        {
+          "id": 3,
+          "question": "Qual o animal que mais mata humanos no mundo?",
+          "answers": [
+            "Cobra",
+            "Tigre",
+            "Hipopótamo",
+            "Mosquito"
+          ],
+          "correctAnswer": 3,
+          "feedback": "Segundo a OMS (Organização Mundial da Saúde), cerca de 725 mil pessoas morrem todos os anos por doenças transmitidas pelos mosquitos."
+        },
+        {
+          "id": 4,
+          "question": "Qual animal simboliza o imposto de renda?",
+          "answers": [
+            "Leão",
+            "Onça",
+            "Tartaruga",
+            "Rinoceronte"
+          ],
+          "correctAnswer": 0,
+          "feedback": "A agência de publicidade DPZ criou 38 propagandas entre os anos de 1980 e 1990 e utilizou o leão Simba - sim um leão de verdade - para dar vida ao mascote do Imposto de Renda brasileiro."
+        }
+      ]
+    },
+    "math": {
+      "id": 2,
+      "name": "Matemática",
+      "color": "#F77E21",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Quando temos 2*3+3*4-2/3, qual é a ordem certa para realizar uma conta?",
+          "answers": [
+            "Аdіçãо, Ѕubtrаçãо, Мultірlісаçãо е Dіvіѕãо",
+            "Мultірlісаçãо, Аdіçãо, Ѕubtrаçãо е Dіvіѕãо",
+            "Ѕubtrаçãо, Аdіçãо, Dіvіѕãо е Мultірlісаçãо",
+            "Мultірlісаçãо, Dіvіѕãо, Аdіçãо е Ѕubtrаçãо"
+          ],
+          "correctAnswer": 3,
+          "feedback": "Em relação às quatro operações, sempre resolvemos primeiro as divisões e as multiplicações e, depois, as adições e subtrações na ordem em que aparecem."
+        },
+        {
+          "id": 2,
+          "question": "E outra como: {4[3-4*2(2+3/3)]-1} qual é a ordem desta conta citada?",
+          "answers": [
+            "Parênteses, Chaves e Colchetes",
+            "Parênteses, Colchetes e Chaves",
+            "Colchetes, Chaves e Parênteses",
+            "Chaves, Colchetes e Parênteses"
+          ],
+          "correctAnswer": 1,
+          "feedback": "Primeiro, resolvemos os parênteses, quando acabarem os cálculos dentro dos parênteses, resolvemos os colchetes; e quando não houver mais o que calcular dentro dos colchetes, resolvemos as chaves."
+        },
+        {
+          "id": 3,
+          "question": "Calcule: (-5) * (-2) -2",
+          "answers": [
+            "5",
+            "6",
+            "10",
+            "8"
+          ],
+          "correctAnswer": 3,
+          "feedback": "Primeiro é preciso resolver a multiplicação (-5) * (-2)  - 2 = 10 - 2. E em seguida a subtração 10 - 2 = 8"
+        },
+        {
+          "id": 4,
+          "question": "Quantos minutos há em 6 horas e 55 minutos?",
+          "answers": [
+            "60",
+            "70",
+            "120",
+            "415"
+          ],
+          "correctAnswer": 3,
+          "feedback": "Uma hora contém 60 minutos. Assim 60 minutos * 6 horas = 360 minutos. 360 minutos + 55 minutos = 415 minutos"
+        }
+      ]
+    },
+    "sports": {
+      "id": 3,
+      "name": "Esportes",
+      "color": "#FAC213",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Quanto tempo normalmente dura uma partida de futebol?",
+          "answers": [
+            "30 minutos",
+            "15 minutos",
+            "45 minutos",
+            "90 minutos"
+          ],
+          "correctAnswer": 3,
+          "feedback": "Uma partida de futebol dura 90 minutos, divididos em duas partes de 45 minutos cada."
+        },
+        {
+          "id": 2,
+          "question": "Qual é a cor da faixa mais alta, que pode, muito dificilmente, ser adquirida no judô?",
+          "answers": [
+            "Azul",
+            "Branca",
+            "Preta",
+            "Vermelha"
+          ],
+          "correctAnswer": 3,
+          "feedback": "O nível mais alto do judô é o 10º dan (ju-dan) representado pela faixa vermelha."
+        },
+        {
+          "id": 3,
+          "question": "A cada quantos anos são realizados os Jogos Olímpicos?",
+          "answers": [
+            "1 ano",
+            "4 anos",
+            "5 meses",
+            "5 anos"
+          ],
+          "correctAnswer": 1,
+          "feedback": "As Olimpíadas acontecem a cada 4 anos."
+        },
+        {
+          "id": 4,
+          "question": "No futebol, quantos cartões, e de que cores, respectivamente, é preciso que um jogador receba e seja expulso de uma partida?",
+          "answers": [
+            "3 amarelos e 1 vermelho",
+            "2 amarelos e 1 vermelho",
+            "4 amarelos e 1 vermelho",
+            "Somente 1 vermelho"
+          ],
+          "correctAnswer": 3,
+          "feedback": "No futebol, um jogador que tenha sido expulso (por ser mostrado um cartão vermelho direto) é obrigado a abandonar o campo de jogo imediatamente."
+        }
+      ]
+    },
+    "general_knowledge": {
+      "id": 4,
+      "name": "Conhecimentos Gerais",
+      "color": "#D61C4E",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Em que lugar vivem mais cangurus do que pessoas?",
+          "answers": [
+            "Indonésia",
+            "Nova Zelândia",
+            "Austrália",
+            "África do Sul"
+          ],
+          "correctAnswer": 2,
+          "feedback": "Na Austrália, a população de cangurus, cerca de 45 milhões, representa quase o dobro da população australiana, 25 milhões."
+        },
+        {
+          "id": 2,
+          "question": "Qual das alternativas contém apenas nomes de rios?",
+          "answers": [
+            "São Francisco, Douro, Antártico",
+            "Nilo, Amazonas, Mississipi",
+            "Cáspio, Vermelho, Reno",
+            "Tocantins, Bering, Ganges"
+          ],
+          "correctAnswer": 1,
+          "feedback": "O rio Nilo possui 7088 km de extensão e está situado no continente africano. O rio Amazonas, com 6992 km de extensão, está localizado na América do Sul. O rio Mississipi apresenta 6212 km de extensão e está situado nos Estados Unidos."
+        },
+        {
+          "id": 3,
+          "question": "Qual o significado da expressão “calcanhar de Aquiles”?",
+          "answers": [
+            "A característica predominante das pessoas",
+            "Fuga dos problemas",
+            "O ponto mais vulnerável de alguém",
+            "Esporão"
+          ],
+          "correctAnswer": 2,
+          "feedback": "Segundo a lenda grega, Aquiles, filho do rei Peleu e da deusa Tétis, tornou-se invulnerável quando, ao nascer, foi banhado pela mãe nas águas do rio Estige. Apenas o calcanhar por onde Tétis o segurou não foi molhado e continuou vulnerável. "
+        },
+        {
+          "id": 4,
+          "question": "As pessoas de qual tipo sanguíneo são consideradas doadores universais?",
+          "answers": [
+            "Tipo A",
+            "Tipo B",
+            "Tipo ABO",
+            "Tipo O"
+          ],
+          "correctAnswer": 3,
+          "feedback": "No Sistema ABO, existem quatro tipos sanguíneos: A, B, AB e O. O sangue O doa para todos os outros tipos (A,B,AB e O), entretanto, somente recebe de O. Por isso, ele é considerado o doador universal."
+        }
+      ]
+    }
+  }
+}
