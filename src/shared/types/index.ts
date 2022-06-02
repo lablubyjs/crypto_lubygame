@@ -1,7 +1,8 @@
-import {ICategorie, IQuestion} from '@shared/interfaces';
-import {MouseEventHandler} from 'react';
+import {ButtonHTMLAttributes, MouseEventHandler} from 'react';
 
-export type ButtonProps = {
+import {ICategorie, IQuestion} from '@shared/interfaces';
+
+export type ButtonProps = ButtonHTMLAttributes<any> & {
     width: number;
     height: number;
     backgroundColor: string;
@@ -26,4 +27,4 @@ export type GameProps = {
     feedback?: string;
     correctAnswers?: number;
     onConfirmAnswer: (anwser: number) => void;
-}
+};
